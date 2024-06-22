@@ -1,0 +1,19 @@
+OCTYPE <html>
+<nl>
+<head>
+    <title>Resultados</title>
+    <meta charset="UTF-8" />
+<head>
+<body>
+    <p>Aqui se muestra los resultados</p>
+    <div id="resultados"></div>
+    <br>
+    <a href="formularios.html">Volver a formulario inicial</a>
+    </body>
+    <!--Ejemplo simple de javaScript-->
+    <script>
+        const res = document.getElementById("resultados")
+        new URLSearchParams(window.location.search).forEach((val,name))=>{
+            res,append(${name}; ${val})
+            res,append(document.createElement('br'))
+        }

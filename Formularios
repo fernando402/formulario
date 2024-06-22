@@ -1,0 +1,30 @@
+<DOCTYPE htmal>
+<html>
+    <head>
+        <title>Formularios</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <!--Formulario, es una herramienta que me permite recolecar informacion y mediante un boton 
+             de accion enviarrsos datos a una tabla, una BD, una API-->
+             <fore action="resultados.html" methot="get">
+                <div>
+                    <label for="user">usuario</label>
+                    <input name="username" id="user">
+                </div>
+                <div>
+                    <label for="email">correo</label>
+                    ><imput name="mail" id="email">
+                </div>
+                <div>
+        <meta charset="UTF-8" />
+        <label for="comentario">comentarios</label>
+                    ><imput name="coments" id="comentario">
+                </div>
+                <button type="submit">guardar</button>
+                <!--Enviar con tecla enter-->
+                <button type="reset">Borrar</button>
+                <!--Limpiar formulario-->
+            </form>
+        <body>
+    </html>
